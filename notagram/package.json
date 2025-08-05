@@ -1,15 +1,12 @@
-{"scripts": {
-  "start": "node index.js",
-  "test": "echo \"Error: no test specified\" && exit 1"
-},
+{
   "name": "notagram",
   "version": "0.0.1",
   "description": "publish notion pages to instagram",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha --ignore node_modules/ src/**/*_test.js",
-    "test-watch": "mocha --ignore node_modules/ src/**/*_test.js --watch",
-    "start": "node index.js"
+    "test-watch": "mocha --ignore node_modules/ src/**/*_test.js --watch"
   },
   "author": "",
   "license": "ISC",
